@@ -27,6 +27,8 @@ Scheme
 		"SelectionBG"				"90 84 75 255"
 		"SelectionBG2"				"69 64 57 255"
 		"ListBG"					"39 36 34 0"
+
+		"Green"						"63 185 73 255"
 	}
 
 	BaseSettings
@@ -294,26 +296,28 @@ Scheme
 				"name"			"Product Sans"
 				"tall"			"18"
 				"yres"			"768 1023"
-				"dropshadow"	"0"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 
 			"4"
 			{
-				"name"			"Verdana"
-				"tall"			"17"
-				"weight"		"700"
+				"name"			"Product Sans"
+				"tall"			"21"	[$WINDOWS]
+				"tall"			"23"	[$LINUX]
 				"yres"			"1024 1199"
 				"dropshadow"	"1"
+				"antialias"		"1"
 			}
 
 			"5"
 			{
-				"name"			"Verdana"
-				"tall"			"22"
-				"weight"		"700"
+				"name"			"Product Sans"
+				"tall"			"23"	[$WINDOWS]
+				"tall"			"24"	[$LINUX]
 				"yres"			"1200 10000"
 				"dropshadow"	"1"
+				"antialias"		"1"
 			}
 		}
 
@@ -783,7 +787,8 @@ Scheme
 		"2"	"resource/HL2EP2.ttf"	
 		"3"
 		{
-			"font" "resource/fonts/ProductSans-Regular.ttf"
+			"font" "resource/fonts/productsans.ttf"	[$WINDOWS]
+			"font" "resource/fonts/productsans_linux.ttf"	[$LINUX]
 			"name" "Product Sans"
 		}		
 	}

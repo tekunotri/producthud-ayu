@@ -46,8 +46,8 @@
 		"wide"	"200"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"16"
-		"red_active_xpos"			"106"
+		"blue_active_xpos"			"34"
+		"red_active_xpos"			"130"
 	}	
 	
 	HudItemEffectMeter
@@ -784,9 +784,9 @@
 	WinPanel
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"r82"
+		"ypos"					"r80"
 		"zpos"					"20"
-		"wide"					"175"
+		"wide"					"176"
 		"tall"					"82"
 	}
 
