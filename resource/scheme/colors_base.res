@@ -16,30 +16,30 @@ Scheme
 
 		// Health Color
 		"HealthTF"                          "240 240 240 255"       // In Game Health Color
-		"HealthBuffTF"                      "91 171 248 255"        // In Game Health Overhealed Color
-		"HealthLowTF"                       "243 60 59 255"         // In Game Health Low Color
+		"HealthBuffTF"                      "68 164 255 255"        // In Game Health Overhealed Color
+		"HealthLowTF"                       "255 44 44 255"         // In Game Health Low Color
 		"HealthBlurTF"                      "20 20 20 255"          // In Game Health Blurred Color
 
 		"HealthIDTF"                        "240 240 240 255"       // TargetID Health Color
-		"HealthIDBuffTF"                    "91 171 248 255"        // TargetID Health Overhealed Color
-		"HealthIDLowTF"                     "243 60 59 255"         // TargetID Health Low Color
+		"HealthIDBuffTF"                    "68 164 255 255"        // TargetID Health Overhealed Color
+		"HealthIDLowTF"                     "255 44 44 255"         // TargetID Health Low Color
 		"HealthIDBlurTF"                    "20 20 20 255"	
 
 		// Ammo Color
 		"AmmoTF"                            "240 240 240 255"
-		"AmmoLowTF"                         "243 60 59 255"
+		"AmmoLowTF"                         "255 44 44 255"
 		"AmmoBlurTF"                        "20 20 20 255"	
 		
-		"AmmoResTF"                         "154 183 197 255"
-		"AmmoResLowTF"                      "243 60 59 255"
+		"AmmoResTF"                         "204 204 204 255"
+		"AmmoResLowTF"                      "255 44 44 255"
 		"AmmoResBlurTF"                     "20 20 20 255"	
 		
 		// Uber Color
 		"UberTF"                            "240 240 240 255"
 		"UberAltTF"                         "240 240 240 255"
 		
-		"UberBarTF"                         "56 142 60 255"
-		"UberBarAltTF"                      "76 175 80 255"
+		"UberBarTF"                         "68 164 255 255"
+		"UberBarAltTF"                      "99 180 255 255"
 		"UberBarBGTF"                       "24 24 24 150"
 		
 		//
@@ -172,7 +172,7 @@ Scheme
 		"TanDarker"				"24 24 24 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
-		"StoreGreen"			"76 107 34 255"
+		"StoreGreen"			"77 136 49 255"
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
@@ -308,8 +308,8 @@ Scheme
 		Econ.Button.DepressedFgColor						"Black"
 		
 		Econ.Button.PresetDefaultColorFg					"White"
-		Econ.Button.PresetArmedColorFg						"White"
-		Econ.Button.PresetDepressedColorFg					"White"
+		Econ.Button.PresetArmedColorFg						"Black"
+		Econ.Button.PresetDepressedColorFg					"Black"
 		
 		Econ.Button.PresetDefaultColorBg					"AccentBG"
 		Econ.Button.PresetArmedColorBg						"AccentBG"
@@ -367,7 +367,7 @@ Scheme
 		Label.TextDullColor				"TanDark"
 		Label.TextColor					"White"
 		Label.TextBrightColor			"White"
-		Label.SelectedTextColor			"White"
+		Label.SelectedTextColor			"Black"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"

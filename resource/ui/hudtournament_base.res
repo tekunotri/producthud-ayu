@@ -443,7 +443,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/box_border_dark"
+		"image"			"replay/thumbnails/panels/panel_neutral_more_opaque"
 		"alpha"			"200"
 		"proportionaltoparent"	"1"
 
@@ -513,15 +513,15 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBLUEBG"
 		"xpos"			"5"
-		"ypos"			"22"
+		"ypos"			"23"
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"20"
+		"tall"			"17"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/box_border_dark"
+		"image"			"replay/thumbnails/panels/panel_blue2"
 		"proportionaltoparent"	"1"
 
 		"src_corner_height"	"15"				// pixels inside the image
@@ -551,7 +551,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"HudFontSmallest"
+		"font"			"product12"
 		"xpos"			"12"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -587,7 +587,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product12"
 		"xpos"			"56"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -625,10 +625,10 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"125"
-		"ypos"			"22"
+		"ypos"			"23"
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"20"
+		"tall"			"17"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -663,7 +663,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"HudFontSmallest"
+		"font"			"product12"
 		"xpos"			"175"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -698,7 +698,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product12"
 		"xpos"			"130"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -775,16 +775,16 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
-		"xpos"			"0"
+		"xpos"			"25"
 		"ypos"			"58"
 		"zpos"			"-1"
-		"wide"			"250"
-		"tall"			"17"
+		"wide"			"200"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/box_border_dark"
+		"image"			"replay/thumbnails/panels/panel_neutral_more_opaque"
 		"alpha"			"200"
 
 		"src_corner_height"	"60"				// pixels inside the image
@@ -812,11 +812,11 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"product15"
+		"font"			"product12"
 		"xpos"			"0"
-		"ypos"			"62"
+		"ypos"			"59"
 		"wide"			"250"
-		"tall"			"10"
+		"tall"			"15"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -859,9 +859,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"product15blur"
+		"font"			"product12blur"
 		"xpos"			"0"
-		"ypos"			"54"
+		"ypos"			"59"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"2"
@@ -949,36 +949,9 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"230"
-		"ypos"			"r55"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"40"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		"xpos"			"9999"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/panel_red"
-		"alpha"			"200"
-
-		"src_corner_height"	"40"				// pixels inside the image
-		"src_corner_width"	"40"
-		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"150"
-		}
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
+		"enabled"		"0"
 	}
 
 	"CountdownLabel"
@@ -1012,6 +985,11 @@
 			"xpos"			"300"
 			"ypos"			"130"
 		}
+
+		if_mvm
+		{
+			"ypos"          "r65"
+		}
 	}
 	
 	"CountdownLabelShadow"
@@ -1044,6 +1022,11 @@
 		{
 			"xpos"			"300"
 			"ypos"			"130"
+		}
+
+		if_mvm
+		{
+			"ypos"          "r65"
 		}
 	}
 }
