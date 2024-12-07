@@ -10,9 +10,9 @@
 
 // DEFAULT
 
-//#base "color_themes/default/resource/scheme/colors_sourcescheme.res"
-//#base "color_themes/default/resource/scheme/colors.res"
-//#base "color_themes/default/resource/scheme/borders.res"
+#base "color_themes/default/colors_sourcescheme.res"
+#base "color_themes/default/colors.res"
+#base "color_themes/default/borders.res"
 
 
 // DARK
@@ -38,13 +38,6 @@
 
 // CUSTOM
 
-//#base "color_themes/custom/resource/scheme/colors_sourcescheme.res"
-//#base "color_themes/custom/resource/scheme/colors.res"
-//#base "color_themes/custom/resource/scheme/borders.res"
-
-
-// AYU DARK
-
-#base "color_themes/ayu-dark/resource/scheme/colors_sourcescheme.res"
-#base "color_themes/ayu-dark/resource/scheme/colors.res"
-#base "color_themes/ayu-dark/resource/scheme/borders.res"
+//#base "color_themes/custom/colors_sourcescheme.res"
+//#base "color_themes/custom/colors.res"
+//#base "color_themes/custom/borders.res"
