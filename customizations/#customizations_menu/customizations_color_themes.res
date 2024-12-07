@@ -368,8 +368,8 @@
                         "enabled"                    "1"
                         "proportionaltoparent"       "1"
                         "actionsignallevel"          "5"
-                        "command"                    "engine product_theme_custom"
-                        "labelText"                  "Custom"
+                        "command"                    "engine product_theme_ayudark"
+                        "labelText"                  "Ayu Dark"
                         "font"                       "product14"
                         "textAlignment"              "west"
                         "textinsetx"                 "30"
@@ -392,7 +392,7 @@
                         "visible"                     "1"
                         "enabled"                     "1"
                         "proportionaltoparent"        "1"
-                        "image"                       "replay/thumbnails/customizations/themes/theme_custom"
+                        "image"                       "replay/thumbnails/customizations/themes/theme_ayudark"
                         "mouseinputenabled"           "0"
                     }
 
@@ -424,7 +424,7 @@
                     "tall"                           "45"
                     "visible"                        "1"
                     "enabled"                        "1"
-                    "labelText"                      "Pick your own colors for a custom theme by navigating to producthud/customizations/color_themes/custom."
+                    "labelText"                      "use the ayu dark theme. no custom here! sorry. i nuked it. "
                     "wrap"                           "1"
                     "font"                           "product9"
                     "textAlignment"                  "west"
