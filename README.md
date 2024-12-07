@@ -1,6 +1,11 @@
+# ProductHUD (ayu theme)
+
 ![product-banner-new_small](https://github.com/user-attachments/assets/b7f3acb4-9ba6-4118-988e-d6d4014617bf)
 
-# ProductHUD
+the same product hud as ever, but this time with a little bit of [ayu theme](https://github.com/ayu-theme/ayu-colors) sprinkled on top
+
+> [!WARNING]
+> make sure to rename the hud folder from `producthud-ayu` to just `producthud` so customizations work!!!
 
 
 A flat, minimalistic Team Fortress 2 custom HUD originally created by omnibombulator.
